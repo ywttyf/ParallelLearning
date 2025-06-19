@@ -175,7 +175,7 @@ namespace Parallel线程
             double result = x;
             for (int i = 0; i < 100; i++)
             {
-                result = Math.Sqrt(result * 1.3501 + 3.141556);
+                result = Math.Sqrt(result * 1.3501 + 3.141556711);
                 //Thread.Sleep(5);
             }
             return result;
